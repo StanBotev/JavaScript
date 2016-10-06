@@ -8,6 +8,7 @@ function findVarriableNames(input) {
     //console.log(result1.join(' '));
     let firstMatch = text.replace(result1, '');
     //console.log(firstMatch);
+    
 
     let result2 = firstMatch.match(thirdRegEx);
     //console.log(result2.join(' '));
